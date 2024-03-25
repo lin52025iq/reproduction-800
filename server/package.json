@@ -1,0 +1,25 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@hocuspocus/extension-database": "^2.11.3",
+        "@hocuspocus/extension-redis": "^2.11.3",
+        "@hocuspocus/server": "^2.11.3",
+        "@hocuspocus/transformer": "^2.11.3",
+        "body-parser": "^1.20.2",
+        "express": "^4.19.1",
+        "express-ws": "^5.0.2",
+        "mongodb": "4.0.0",
+        "uuid": "^9.0.1",
+        "yjs": "^13.6.14"
+    }
+}
